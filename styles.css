@@ -93,3 +93,17 @@ p {
 .gift-img-cheers:hover {
   background-image: url("images/cheers.webp");
 }
+
+/*media queries */
+
+@media (max-width: 750px) {
+  .hero-container,
+  .bday-gift,
+  .gift-img {
+    width: 365px;
+  }
+
+  .hero-h1 {
+    font-size: 1.3rem;
+  }
+}
